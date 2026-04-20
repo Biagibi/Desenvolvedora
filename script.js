@@ -25,8 +25,7 @@ const svg = document.getElementById('particles');
       c.style.animationDelay = `${(i*0.3)%2}s`;
       svg.appendChild(c);
     });
-
-    /* ── TYPEWRITER ─────────────────────────────────── */
+    
     const typedEl = document.getElementById('typed-text');
     const fullText = 'Desenvolvedora Front-End em Formação';
     let i = 0, deleting = false;
@@ -43,8 +42,7 @@ const svg = document.getElementById('particles');
       setTimeout(tick, deleting ? 35 : 65);
     }
     setTimeout(tick, 300);
-
-    /* ── NAV SCROLL ─────────────────────────────────── */
+    
     const root = document.getElementById('scroll-root');
     const navbar = document.getElementById('navbar');
     const backTop = document.getElementById('back-top');
@@ -70,28 +68,28 @@ const svg = document.getElementById('particles');
 
     backTop.addEventListener('click', () => root.scrollTo({ top: 0, behavior: 'smooth' }));
 
-    /* ── REVEAL ON SCROLL ───────────────────────────── */
+    
     const revealEls = document.querySelectorAll('.reveal');
     const revealObserver = new IntersectionObserver(entries => {
       entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); revealObserver.unobserve(e.target); } });
     }, { threshold: 0.12 });
     revealEls.forEach(el => revealObserver.observe(el));
 
-    /* ── CAROUSEL ───────────────────────────────────── */
+    
     const projects = [
     {
         title: 'Web Music',
         desc: 'Interface intuitiva de um reprodutor de musica online.',
         tags: ['Figma', 'HTML', 'CSS', 'JavaScript'],
-        img: 'img/projeto0.png',   // ⚠️ coloque o caminho da imagem do projeto
-        link: 'https://biagibi.github.io/WebMusic/'  // ⚠️ coloque o link do projeto
+        img: 'img/projeto0.png',   
+        link: 'https://biagibi.github.io/WebMusic/'  
     },
     {
-        title: 'Site Info Produtos',
+        title: 'Landing E-commerce',
         desc: 'Página de apresentação para startup de tecnologia com design moderno e responsivo.',
         tags: ['HTML', 'CSS', 'JavaScript'],
         img: 'img/projeto1.png',
-        link: 'https://biagibi.github.io/DevClub/'
+        link: 'https://biagibi.github.io/Landing-e-commerce/'
     },
     {
         title: 'Protótipo App Streaming',
@@ -144,7 +142,6 @@ const svg = document.getElementById('particles');
     document.getElementById('next-btn').onclick = () => goTo((current + 1) % projects.length);
     renderProject();
 
-    /* ── CONTACT CARD FLIP ──────────────────────────── */
     document.getElementById('contact-card-wrap').addEventListener('click', () => {
       document.getElementById('contact-card').classList.toggle('flipped');
 });
