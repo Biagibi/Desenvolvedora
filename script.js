@@ -82,14 +82,14 @@ const svg = document.getElementById('particles');
         desc: 'Interface intuitiva de um reprodutor de musica online.',
         tags: ['Figma', 'HTML', 'CSS', 'JavaScript'],
         img: 'img/projeto0.png',   
-        link: 'https://biagibi.github.io/WebMusic/'  
+        link: 'https://beatrizcavalcante-dev.github.io/WebMusic/'  
     },
     {
         title: 'Landing E-commerce',
         desc: 'Página de apresentação para startup de tecnologia com design moderno e responsivo.',
         tags: ['HTML', 'CSS', 'JavaScript'],
         img: 'img/projeto1.png',
-        link: 'https://biagibi.github.io/Landing-e-commerce/'
+        link: 'https://beatrizcavalcante-dev.github.io/Landing-e-commerce/'
     },
     {
         title: 'Protótipo App Streaming',
@@ -117,7 +117,7 @@ const svg = document.getElementById('particles');
         desc: 'Interface finalizada após criação no Figma',
         tags: ['Figma', 'Design', 'HTML', 'CSS', 'JavaScrip'],
         img: 'img/projeto6.png',
-        link: 'https://biagibi.github.io/Portfolio-BeatrizC/'
+        link: 'https://beatrizcavalcante-dev.github.io/Portfolio-BeatrizC/'
     },
     ];
 
