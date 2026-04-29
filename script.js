@@ -125,15 +125,21 @@ const svg = document.getElementById('particles');
 
     function renderProject() {
         const p = projects[current];
-        document.getElementById('proj-link').href = p.link;
+
+        const linkEl = document.getElementById('proj-link');
+        linkEl.setAttribute('href', p.link);
+
         document.getElementById('proj-img').src = p.img;
         document.getElementById('proj-img').alt = p.title;
         document.getElementById('proj-title').textContent = p.title;
         document.getElementById('proj-desc').textContent = p.desc;
+        
         const tagsEl = document.getElementById('proj-tags');
         tagsEl.innerHTML = p.tags.map(t => `<span class="tag">${t}</span>`).join('');
+
         const dotsEl = document.getElementById('carousel-dots');
         dotsEl.innerHTML = projects.map((_,i) => `<button class="dot${i===current?' active':''}" onclick="goTo(${i})"></button>`).join('');
+        
         document.getElementById('carousel-counter').textContent = `${current+1} / ${projects.length}`;
     }
 
