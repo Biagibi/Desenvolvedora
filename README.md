@@ -42,4 +42,3 @@ Demonstrar minha evolução na área de tecnologia e reunir projetos que evidenc
 
 Beatriz Cavalcante  
 🔗 LinkedIn: https://linkedin.com/in/beatrizcavalcantee  
-💻 GitHub: https://github.com/Biagibi
