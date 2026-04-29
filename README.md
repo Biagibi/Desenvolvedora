@@ -6,7 +6,7 @@ Portfólio desenvolvido para apresentar meus projetos, habilidades e evolução 
 
 ## 🔗 Acesse o projeto
 
-👉 [https://biagibi.github.io/Dev-Beatriz-Cavalcante](https://biagibi.github.io/Dev-Beatriz-Cavalcante/)
+👉 [https://beatrizcavalcante-dev.github.io/Dev-Beatriz-Cavalcante](https://beatrizcavalcante-dev.github.io/Dev-Beatriz-Cavalcante/)
 
 ---
 
