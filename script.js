@@ -81,42 +81,42 @@ const svg = document.getElementById('particles');
         title: 'Web Music',
         desc: 'Interface intuitiva de um reprodutor de musica online.',
         tags: ['Figma', 'HTML', 'CSS', 'JavaScript'],
-        img: 'img/projeto0.png',   
+        img: 'img/projeto0.PNG',   
         link: 'https://beatrizcavalcante-dev.github.io/WebMusic/'  
     },
     {
         title: 'Landing E-commerce',
         desc: 'Página de apresentação para startup de tecnologia com design moderno e responsivo.',
         tags: ['HTML', 'CSS', 'JavaScript'],
-        img: 'img/projeto1.png',
+        img: 'img/projeto1.PNG',
         link: 'https://beatrizcavalcante-dev.github.io/Landing-e-commerce/'
     },
     {
         title: 'Protótipo App Streaming',
         desc: 'Criação de um Protótipo de Aplicativo Streaming. Desenvolvido para trabalho da Faculdade.',
         tags: ['Figma', 'Design'],
-        img: 'img/projeto3.png',
+        img: 'img/projeto3.PNG',
         link: 'https://www.figma.com/design/tIgTY8awAO0lw6nQLN2LN8/Prot%C3%B3tipo-Crunchyroll?node-id=0-1&m=dev&t=77SNFcqhYkpqY5N9-1'
     },
     {
         title: 'App Streaming',
         desc: 'Protótipo de Aplicativo Streaming Finalizado. Desenvolvido para trabalho da Faculdade.',
         tags: ['Figma', 'Design', 'HTML', 'CSS', 'JavaScrip'],
-        img: 'img/projeto5.png',
+        img: 'img/projeto5.PNG',
         link: 'https://www.figma.com/design/tIgTY8awAO0lw6nQLN2LN8/Prot%C3%B3tipo-Crunchyroll?node-id=0-1&m=dev&t=77SNFcqhYkpqY5N9-1'
     },
     {
         title: 'Protótipo Portfólio',
         desc: 'Criação de designer do meu primeiro portfólio.',
         tags: ['Figma', 'Design'],
-        img: 'img/projeto4.png',
+        img: 'img/projeto4.PNG',
         link: 'https://www.figma.com/design/MWYM1n4e1nvPY9u0pgNOgT/Portf%C3%B3lio?node-id=0-1&m=dev&t=9bnrXbFwHdDdwnsO-1'
     },
     {
         title: 'Primeiro Portfólio',
         desc: 'Interface finalizada após criação no Figma',
         tags: ['Figma', 'Design', 'HTML', 'CSS', 'JavaScrip'],
-        img: 'img/projeto6.png',
+        img: 'img/projeto6.PNG',
         link: 'https://beatrizcavalcante-dev.github.io/Portfolio-BeatrizC/'
     },
     ];

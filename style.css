@@ -145,7 +145,7 @@
     .hero-aurora { 
       position:absolute; 
       inset:0; 
-      background:url('img/fun2.png') center center / cover no-repeat; 
+      background:url('img/fun2.jpg') center center / cover no-repeat; 
       opacity:.85; 
       pointer-events:none; 
     }
@@ -537,7 +537,7 @@
     .footer-aurora { 
       position:absolute; 
       inset:0; 
-      background:url('img/fun2.png') center bottom / cover no-repeat; 
+      background:url('img/fun2.jpg') center bottom / cover no-repeat; 
       opacity:.18; 
       pointer-events:none; 
       transform:scaleX(-1); 
